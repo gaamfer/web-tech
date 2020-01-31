@@ -1,7 +1,7 @@
-#Web Tech Practicals
+# Web Tech Practicals
 ## Session 1
 
-her are some tags 
+here are some tags 
 
 ```html
 <h1></h1>
