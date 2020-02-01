@@ -1,10 +1,12 @@
 # Web Tech Practicals
-## Session 1
+## WEB TECHNOLOGIES UNIT IS ALL HERE
 
-here are some tags 
+GABRIEL's work...
 
 ```
-WEB TECHNOLOGIES UNIT IS ALL HERE
 
+Go inside every p's folder and there 
+will be 
+more description about weeks tasks
 
 ```
