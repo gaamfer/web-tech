@@ -1,0 +1,28 @@
+*{
+    background;
+    background-color: aqua;
+    margin: 2px;
+    padding: 0;
+}
+div h1 {
+    text-align: center;
+}
+.mypic {
+    
+    margin: 2%;
+    size: 20% ;
+}
+.entrytxt {
+    border: aqua;
+    border-radius: 4px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin right: 5%;
+    margin-bottom: 5%
+    
+}
+div footer {
+    
+    display: flex;
+
+}
