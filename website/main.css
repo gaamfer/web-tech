@@ -1,14 +1,17 @@
 *{
     background-color: aquamarine ;
-    margin:5px;
-    background-size: auto;
+    margin-left:10px;
+    background-size:auto;
+    
     
 }
-#footer{
-    
-}
+
+
+
+
 #header{
     display: flex;
+
 }
 .foody{
     height: 80px;
@@ -17,33 +20,45 @@
     
 }
 
-h3 {
-    display: inline;
-    font-size: xx-small;
-    color: rgb(252, 113, 0);
-    margin-left: 20px;
-    text-decoration: underline;
+.letras {
+    
+    
+    
+    
+    
+    
+    
     
 }
 #subheading{
     width: 60%;
-    font-size: 25px;
+    font-size: 40px;
     text-align: justify;
     height: 100px;
-    margin-left: 25px;
+    margin-left: 20%;
+    color: black;
 }
-button {
-    margin-left: 70px;
-    background-color: coral;
-    font-size: 16px;
-    padding:8px 10px ;
+.button1 {
     display: inline-block;
-    color: white;
-    border-radius: 80px;
-    border: black;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+.button1:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
-#mao{
-color: rgb(0, 0, 0);
-float: right;
 
+#mao{
+    margin-right: 0 auto;
+    float: right;
 }
