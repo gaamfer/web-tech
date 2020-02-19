@@ -14,13 +14,17 @@
     height: 1200px;
     text-align: center;
 }
+.headings{
+    display: inline-block;
+}
 
 h1,h2 {
     text-align: center;
 }
 
 h1 {
-    font-size: 30pt;
+    font-size: 100pt;
+    color: indigo;
 }
 h2 {
     font-size: 20pt;
@@ -53,4 +57,16 @@ article{
     
     width: 30%;
     float: left;
+}
+
+@media(max-width:700px){
+    h1{
+        color: green
+    }
+    article{
+        width: 100%;
+        padding: 0%;
+        margin-left: 0%;
+        mar
+    }
 }
