@@ -1,10 +1,53 @@
+ ul{
+   margin-bottom: 5px;
+ }
+ li{
+    list-style: none;
+    display: inline-flex;
+    padding: 5px 5px 0px 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
 .wrapper{
     font-family: Arial, Helvetica, sans-serif;
     width: 920px;
     text-align: center;
     margin: auto;
-}
-main h1{
-    background-color: indigo;
+    background-color:grey;
 }
 
+main h1{
+    background-color: indigo;
+    margin-top: 0px;
+}
+ .my{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex
+    
+}
+section{
+    padding: 5 5 5 5;
+    width: 500px;
+    border: 2px solid black;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: burlywood;
+}
+
+    
+
+table{
+   border: 3px solid black; 
+   border-collapse: collapse;
+    margin: 0 auto ;
+
+ 
+}
+tr,th,td{
+border: 1px solid black;
+
+}
