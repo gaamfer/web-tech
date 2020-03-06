@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <head>  
+        <!--
+           This script in included in the head so we need to call it
+        -->
+        <script type="text/javascript">
+            // This is a function
+            function calculateNumber(){
+                var number1 =  parseInt(document.getElementById("number1").value);
+                var number2 = parseInt( document.getElementById("number2").value );
+                var number3 = parseInt(document.getElementById ("number3").value);
+                document.getElementById("result").innerHTML = number1 +number2 +number3; 
+
+            } //end function 
+
+       </script>
+       <p> <input type="number" placeholder="enter number 1" id="number1">  </p> 
+       <p></p>
+       <p> <input type="number" placeholder="enter number 2" id="number2">  </p> 
+       <p></p>
+       <p> <input type="number" placeholder="enter number 3" id="number3">  </p> 
+       
+       <p> <button onClick="calculateNumber()">Click Me</button> </p>     
+    </head>
+    <div id = "result" >
+
+    </div>
+       
+    
+    
+
+</body>
+</html>
