@@ -10,45 +10,68 @@
 <body>
     <div class="wrapper">
        <div class="header">
-            <ul>
-            <li> Portfolio</li>
-            <li>Prices</li>
-            <li> Contact</li>
-            </ul>
+           <nav>
+            
+            <a id="home" href="#">Home</a>
+             <a id = "about" href="#">About</a> 
+              <a href="#">News</a> 
+            
+            </nav>
         </div> 
 
        <main>
-           <h1>My online Portfolio</h1>
-            <div class="my">
-           <section>
-           <h3 id="aboutme">A little bit about me?</h3>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita enim fugit sed minima inventore eum voluptates quis magnam vitae consequuntur. Ducimus voluptatum nisi repudiandae quam ut quasi natus illum a.</p>
+           <h1>Heading 1</h1>
+        <div class="my">
+           <div class="first">
+            <section>
+           <h3 id="sec1">Section 1</h3>
+           <p>
+
+           </p>
             </section>
            
             <section>
-           <h3 id="technical">My technical background</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eius dignissimos at. Nobis hic corporis aperiam non itaque delectus minima animi illo. Fugit harum quas magnam consequuntur ab maiores maxime.</p>
+           <h3 id="sec2">Section 2</h3>
+           <p>
+
+           </p>
             </section>
         </div>
+            
+        <div class="second">
+        <section>
+             <h3 id="sec3">Section 3</h3>
+             <p></p>
+            </section>    
+
+             <section>
+             <h3 id="sec4">Section 4</h3>
+             <p></p>
+             </section>
+            </div>            
+
+            <section class="aboutus">
+             <h3 id="technical">Contact Us</h3>
+             
+            <form>
+                <p> Name: <input type="text" name="name"> </p>
+                <p>Last Name:  <input type="text" name="last_name"> </p>
+                <p> Email: <input type="text" name="email"> </p>
+                <p> Message </p>
+                <textarea name="Message" id="msg" cols="30" rows="10"></textarea>
+                
+                <p><input type="submit" name="Submit" value="Send Message"></p>
+            </form>
+            
+             </section>
+
+            
+        </div>
         </main>
-        <table>
-            <tr>
-                <th>Skill</th>
-                <th>Technical Level</th>
-            </tr>
-            <tr>
-                <td>HTMl</td>
-                <td>Beginner</td>
-            </tr>
-            <tr>
-                <td>Javascript</td>
-                <td>Intermediate</td>
-            </tr>
-            <tr>
-                <td>CSS</td>
-                <td>Advanced</td>
-            </tr>
-        </table>
+        
+        <footer>
+            <p>Copyright ACME Corp</p>
+        </footer>
         
     </div>
 </body>
